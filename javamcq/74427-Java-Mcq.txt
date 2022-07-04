@@ -1,0 +1,599 @@
+1) Which of the following is not a primitive data type?
+
+	a) Boolean
+
+	b) byte
+
+	c) string
+
+	d) double
+
+
+
+2) What is the output of this program?
+
+	a)623
+
+	b) 236
+
+	c) 326
+
+	d) 362
+
+
+
+3) Is null an object?
+
+	a) Yes
+
+	b) No
+
+	c) Sometimes yes
+
+	d) None of these
+
+
+
+4) Let m be a variable of datatype byte. The value of m <<4 is same as
+
+	a) m x 24
+
+	b) 4m
+
+	c) m4
+
+	d) 4 + m
+
+
+
+5) Which of the following statement will result in compilation error?
+
+	a) signed int abc;
+
+	b) unsigned int abc;
+
+	c) signed byte abc;
+
+	d) signed long abc;
+
+
+
+6) Which of the following operators take (s) only integer operands?
+
+	a)%
+
+	b) ++ (post-increment)
+
+	c) ++(pre-increment)
+
+	d)none of these
+
+
+
+7) Which of the following doesn’t have a superclass?
+
+	a)System
+
+	b) Object
+
+	c) Lang
+
+	d) Exception
+
+
+
+8) Elements of an array have the same
+
+	a) index
+
+	b) value
+
+	c) datatype
+
+	d) scope
+
+
+
+9) Constant that cannot be changed are declared using the keyword
+
+	a) final
+
+	b) static
+
+	c) absatract
+
+	d) immutable
+
+
+10) Which of the following can be used to copy data from one array to another?
+
+	a) System.clone
+
+	b) java.lang.toCopy
+
+	c) System.arraycopy
+
+	d)java.lang.clone
+
+
+
+11) Which of the following operator don’t always evaluate all their operator?
+
+	a) &&
+
+	b) &
+
+	c) ?:
+
+	d) I I
+
+
+
+12) How much of storage does a character (represented in Unicode) need?
+
+	a) 1 byte
+
+	b) 4 byte
+
+	c) 3 byte
+
+	d) 2 byte
+
+
+
+13) Which of the following access specifiers is usually used with used with inheritance?
+
+	a) public
+
+	b) private
+
+	c) protected
+
+	d) package
+
+
+
+14) Which of the following operators act only integer operator?
+
+	a) <<
+
+	b) >>>
+
+	c) & (bitwise AND)
+
+	d) No such operator exists in Java.
+
+
+
+15) Which of the following keywords is used to declare exceptions that can possibly occur?
+
+	a) handle
+
+	b) throws
+
+	c) checked
+
+	d) manage
+
+
+
+16) Which of the following packages needs to be important to use the StringTokenizer class
+
+	a) java.io
+
+	b) java.util
+
+	c) java.lang
+
+	d) java.net
+	
+
+
+17)	Which of the following is true about Java.
+
+	a) Java does not support overloading.
+
+	b) Java has replaced the destructor function of C++
+
+	c) There are no header files in Java.
+
+	d) All of the above.
+
+
+	
+18)The command javac
+
+	a) Converts a java program into binary code
+	b) Converts a java program into bytecode
+	c) Converts a java program into machine language
+	d) None of the above.
+
+
+	
+19)Which of the following for loop declaration is not valid?
+
+	a) for ( int i = 99; i >= 0; i / 9 )
+	b) for ( int i = 7; i <= 77; i += 7 )
+	c) for ( int i = 20; i >= 2; --i )
+	d) for ( int i = 2; i <= 20; i = 2* i )
+
+
+	
+20)What would happen if “String[]args” is not included as an argument in the main method?
+
+	a) No error
+	b) Compilation error
+	c) Program won’t run
+	d) Program exit
+
+
+	
+21)Consider the following statements:
+
+int x = 10, y = 15; 
+x = ((x < y) ? (y + x) : (y - x); 
+
+What will be the value of x after executing these statements?
+	A 25
+	B 15
+	C 5
+	D Error can't be executed.
+
+
+	
+22)Which of the following control expressions are valid for an if statement?
+	A an integer expression
+	B a Boolean expression
+	C either A or B
+	D Neither A or B
+	
+
+23)abstract class print { 
+abstract show();
+} 
+class Display extends print {
+}
+	A Nothing is wrong
+	B Wrong Method show() should have a return type
+	C Wrong Methods show() is not implemented in Display
+	D Wrong Display does not contain any members.
+
+
+	
+24)Which of the following keywords are used to control access to a class member?
+
+	A default
+	B protected
+	C interface
+	D None of the above
+
+
+
+25)The keywords reserved but not used in the initial version of Java re:
+
+	A Synchronized
+	B Boolean
+	C union
+	D goto
+
+
+26)A package is a collection of
+
+	A classes
+	B interface
+	C editing tools
+	D classes and interfaces
+
+
+
+27)Which of the following statements are true?
+
+	A An abstract class may not have any final methods?
+	B A final class may not have any abstracts methods.
+	C Transient variables must be static.
+	D all of the above
+	
+
+
+28)Which of the following methods can be used to remove a component from the display?
+
+	A remove()
+	B desappear()
+	C hide()
+	D move()
+	
+
+
+29)Declarations can appear anywhere in the body of a Java method.
+
+	A True
+	B False
+
+
+30)All the bitwise operators have the same level of precedence in Java.
+
+	A True
+	B False
+
+
+
+31)When X is a positive number the operations x>> 2 and x>>>2 both produce the same result.
+
+	A True
+	B False
+
+
+	
+32)14) What is printed by the following statement?
+System.out.print(“Hello,\nworld!”);
+
+(a) Hello, \nworld! 
+(b) Hello, world!
+(c) “Hello, \nworld!”
+(d) None of the above.
+
+
+
+33) Consider the two methods (within the same class)public static int foo(int a, String s)
+	{
+	s = “Yellow”;
+	a=a+2;
+	return a;
+	}
+	public static void bar()
+	{
+	int a=3;
+	String s = “Blue”;
+	a = foo(a,s);
+	System.out.println(“a=”+a+” s=”+s);
+	}
+	public static void main(String args[])
+	{
+	bar();
+	}
+
+	What is printed on execution of these methods?
+
+(a) a = 3 s = Blue 
+(b) a = 5 s = Yellow 
+(c) a = 3 s = Yellow
+(d) a = 5 s = Blue 
+(e) none of the above.
+
+
+
+34) Which of the following variable declaration would NOT compile in a java program?
+
+(a) int var; 
+(b) int VAR; 
+(c) int var1; 
+(d) int var_1; 
+(e) int 1_var;.
+
+
+
+35) Consider the following class definition:
+
+	public class MyClass
+	{
+	private int value;
+	public void setValue(int i){ / code / }
+	// Other methods…
+	}
+	The method setValue assigns the value of i to the instance field value. What could you write for the implementation of setValue?
+
+	(a) value = i; 
+	(b) this.value = i; 
+	(c) value == i;
+	(d) Both (A) and (B) and above 
+	(e) (A), (B) and (C) above.
+
+
+
+36) Which of the following is TRUE?
+
+	(a) In java, an instance field declared public generates a compilation error.
+	(b) int is the name of a class available in the package java.lang
+	(c) Instance variable names may only contain letters and digits.
+	(d) A class has always a constructor (possibly automatically supplied by the java compiler).
+	(e) The more comments in a program, the faster the program runs.
+ 
+
+37) A constructor
+
+	(a) Must have the same name as the class it is declared within.
+	(b) Is used to create objects.
+	(c) May be declared private
+	(d) Both (A) and (B) above
+	(e) (a), (b) and (c) above.
+
+
+	If a=10 and b= 15, then the statement x =(a>b)?a:b; assigns the value 15 to x.
+
+	A True
+	B False
+
+38) Which of the following is used to find and fix bugs in the program?
+
+	a)JDK
+	b)JVM
+	c)JRE
+	d)JDB
+
+
+39) Which of the following is used to find and fix bugs in the program?
+
+
+	a)32
+	b)33
+	c)34
+	d)35
+
+40)public class Test 
+{
+	public String convert(int value) {
+		return value.toString();
+	}
+	public String convert(Integer value) {
+		return value.toString();
+    }
+	public String convert(Object value) {
+		return value.toString();
+	}
+		
+	public static void main(String... args) {
+		Test obj = new Test();
+		System.out.println(obj.convert(10));
+	}
+}
+
+
+A. None
+B. One
+C. Two
+D. Three
+
+
+41) Integer integer = new Integer(4);
+System.out.print(integer.byteValue());
+System.out.print("-");
+int i = new Integer(4);
+System.out.print(i.byteValue());
+
+A. 4-0
+B. 4-4
+C. The code does not compile.
+D. The code compiles but throws an exception at runtime
+
+
+42)String john = "john";
+String jon = new String(john);
+
+System.out.println((john==jon) + " "+ (john.equals(jon)));
+
+A. true true
+B. true false
+C. false true
+D. false false
+
+43)Which of the following operator has more precedence?
+
+(A) ()
+(B) ++
+(C) *
+(D) >=
+
+
+44) public class CppBuzz {
+public static void main(String[] args){
+ int a = 5+5*2+2*2+(2*3);
+ System.out.println(a);
+}
+}
+
+(A) 138
+(B) 264
+(C) 41
+(D) 25
+
+
+45) The condition of a Java Ternary operator should evaluate to ___.
+A) 1 or 0
+B) true or false
+C) TRUE or FALSE
+D) None
+
+46)What is the output of the Java code snippet with Ternary operator?
+String name = "java";
+int marks = name == "java"?10:20;
+System.out.println("Marks=" + marks);
+A) marks=0
+B) marks=10
+C) marks=20
+D) Compiler error
+
+
+
+47)What is the output of Java code snippet below?
+int a = 25, b=33;
+String name = true?"CAT":;
+System.out.println(name);
+A) Empty
+B) CAT
+C) null
+D) Compiler error
+
+
+48)class Furniture
+{
+  void show()
+  {
+    System.out.println("Made of Wood. ");
+  }
+}
+class Sofa extends Furniture
+{
+  void addCushion()
+  {
+    System.out.println("Added. ");
+  }
+}
+public class Inheritance6
+{
+  public static void main(String[] args)
+  {
+    Furniture fur = new Sofa();
+    fur.addCushion();
+  }
+}
+
+
+A) Added.
+B) No output
+C) Added. Made of Wood.
+D) Compiler error
+
+
+49)Which primitive data types have wrapper classes available?
+A) byte, short, int, long
+B) float, double
+C) boolean, char
+D) All the above
+
+50) What is the output of the below Java code snippet on wrapper classes?
+System.out.println(Byte.BYTES);
+System.out.println(Character.BYTES);
+System.out.println(Short.BYTES);
+System.out.println(Integer.BYTES);
+System.out.println(Long.BYTES);
+System.out.println(Float.BYTES);
+System.out.println(Double.BYTES);
+
+
+A) 
+1
+2
+2
+4
+8
+4
+8
+
+B) 
+1
+4
+2
+4
+8
+4
+8
+
+C) 
+1
+2
+4
+8
+16
+8
+16
+D) None of the above
